@@ -1,7 +1,0 @@
-*
-!/.vimrc
-!/.vim/
-!/.vim/*
-.vim/.netrwhist
-!/.gitignore.d
-!/.gitignore.d/vim
