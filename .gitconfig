@@ -1,0 +1,17 @@
+[alias]
+	tree = log --graph --all --pretty=oneline --graph --decorate
+[color]
+	ui = true
+[core]
+	autocrlf = input
+	editor = vim
+	excludesfile = ~/.gitignore_global
+	whitespace = blank-at-eol, -blank-at-eof
+[log]
+	date = rfc2822
+	abbrevCommit = true
+[push]
+	default = current
+[user]
+  name = Pierre DAL-PRA
+  email = dalpra.pierre@gmail.com
