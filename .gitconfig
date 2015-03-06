@@ -1,5 +1,9 @@
 [alias]
 	tree = log --graph --all --pretty=oneline --graph --decorate
+	st = status
+	co = checkout
+	br = branch
+	ci = commit
 [color]
 	ui = true
 [core]
