@@ -4,6 +4,7 @@
 	co = checkout
 	br = branch
 	ci = commit
+	cleanup = clean -fd
 [color]
 	ui = true
 [core]
