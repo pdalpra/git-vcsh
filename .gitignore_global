@@ -1,2 +1,11 @@
 *~
+
+# Mac OS X files
 .DS_Store
+
+# IntelliJ project files
+*.iml
+.idea
+
+# jenv local JVM version files
+.java-version
