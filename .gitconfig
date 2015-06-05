@@ -20,3 +20,5 @@
 [user]
 	name = Pierre DAL-PRA
 	email = dalpra.pierre@gmail.com
+[hub]
+	protocol = ssh
