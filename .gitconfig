@@ -5,7 +5,7 @@
 	br = branch
 	ci = commit
 	cleanup = clean -fd
-	wip = !git ci -a --amend --no-edit && git push -f
+	wip = !git ci -a --amend --no-edit --date=now && git push -f
 [color]
 	ui = true
 [core]
