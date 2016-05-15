@@ -21,7 +21,7 @@
 [push]
 	default = current
 [user]
-	name = Pierre DAL-PRA
+	name = Pierre Dal-Pra
 	email = dalpra.pierre@gmail.com
 [hub]
 	protocol = ssh
