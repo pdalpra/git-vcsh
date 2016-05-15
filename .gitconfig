@@ -6,6 +6,7 @@
 	ci = commit
 	cleanup = clean -fd
 	wip = !git ci -a --amend --no-edit --date=now && git push -f
+  pr = pull-request
 [color]
 	ui = true
 [core]
