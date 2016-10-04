@@ -9,3 +9,7 @@
 
 # jenv local JVM version files
 .java-version
+
+# Chef files
+.rakeTasks
+.chef
