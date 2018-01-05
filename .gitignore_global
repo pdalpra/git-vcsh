@@ -13,3 +13,4 @@
 # Chef files
 .rakeTasks
 .chef
+.cookbook_version
