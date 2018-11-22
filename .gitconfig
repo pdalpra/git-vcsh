@@ -32,3 +32,7 @@
 	email = dalpra.pierre@gmail.com
 [hub]
 	protocol = ssh
+[rebase]
+	autosquash = true
+[help]
+	autocorrect = true
