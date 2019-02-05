@@ -35,4 +35,4 @@
 [rebase]
 	autosquash = true
 [help]
-	autocorrect = true
+	autocorrect = 1
