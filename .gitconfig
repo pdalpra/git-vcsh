@@ -33,6 +33,7 @@
 [hub]
 	protocol = ssh
 [rebase]
-	autosquash = true
+  autosquash = true
+	autostash = true
 [help]
 	autocorrect = 1
