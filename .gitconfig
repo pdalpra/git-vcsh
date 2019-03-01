@@ -7,6 +7,7 @@
 	cleanup = !git remote prune origin && git branch --merged | grep -v '^* master$' | grep -v '^  master$' | xargs git branch -d
 	wip = !git ci -a --amend --no-edit --date=now && git push -f
   pr = pull-request
+  rebase-master = !git fetch origin master && git rebase origin/master
 [color]
 	ui = true
 [core]
