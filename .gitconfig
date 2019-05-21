@@ -1,13 +1,12 @@
 [alias]
-	tree = log --graph --all --pretty=oneline --graph --decorate
 	st = status
 	co = checkout
 	br = branch
 	ci = commit
+	tree    = log --graph --all --pretty=oneline --graph --decorate
 	cleanup = !git remote prune origin && git branch --merged | grep -v '^* master$' | grep -v '^  master$' | xargs git branch -d
-	wip = !git ci -a --amend --no-edit --date=now && git push -f
-  pr = pull-request
-  rebase-master = !git fetch origin master && git rebase origin/master
+	wip     = !git ci -a --amend --no-edit --date=now && git push -f
+	rebm    = !git fetch --all && git rebase origin/master
 [color]
 	ui = true
 [core]
@@ -31,10 +30,8 @@
 [user]
 	name = Pierre Dal-Pra
 	email = dalpra.pierre@gmail.com
-[hub]
-	protocol = ssh
 [rebase]
-  autosquash = true
+	autosquash = true
 	autostash = true
 [help]
 	autocorrect = 1
