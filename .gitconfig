@@ -4,7 +4,7 @@
 	br = branch
 	ci = commit
 	tree    = log --graph --all --pretty=oneline --graph --decorate
-	cleanup = !git remote prune origin && git branch --merged | grep -v '^* master$' | grep -v '^  master$' | xargs git branch -d
+	cleanup = !git remote prune origin && git branch --merged | grep -v '^* master$' | grep -v '^  master$' | xargs -r git branch -d
 	wip     = !git ci -a --amend --no-edit --date=now && git push -f
 	rebm    = !git fetch --all && git rebase origin/master
 [color]
@@ -27,11 +27,10 @@
 	abbrevCommit = true
 [push]
 	default = current
-[user]
-	name = Pierre Dal-Pra
-	email = dalpra.pierre@gmail.com
 [rebase]
 	autosquash = true
 	autostash = true
 [help]
 	autocorrect = 1
+[include]
+	path = ~/.gitconfig.local
