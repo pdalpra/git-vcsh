@@ -17,3 +17,4 @@
 
 # Scala Metals files
 .metals
+.bloop
