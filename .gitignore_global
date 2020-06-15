@@ -18,3 +18,4 @@
 # Scala Metals files
 .metals
 .bloop
+metals.sbt
