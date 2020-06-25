@@ -3,3 +3,4 @@
 !/.gitignore_global
 !/.gitignore.d
 !/.gitignore.d/git
+!/.tigrc
