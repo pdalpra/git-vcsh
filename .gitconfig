@@ -9,7 +9,6 @@
 	wip         = !git ci -a --amend --no-edit --date=now && git push -f
 	rebm        = !git fetch --all && git rebase origin/master
 	rebase-from = !"git rebase -i $(git merge-base \"$1\" $(git rev-parse --abbrev-ref HEAD)) #"
-
 [color]
 	ui = true
 [core]
@@ -34,7 +33,7 @@
 	autosquash = true
 	autostash = true
 [sequence]
-  editor = interactive-rebase-tool
+	editor = interactive-rebase-tool
 [help]
 	autocorrect = 1
 [include]
