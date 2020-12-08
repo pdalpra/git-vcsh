@@ -14,9 +14,9 @@
 [core]
 	autocrlf = input
 	editor = vim
+	pager = delta
 	excludesfile = ~/.gitignore_global
 	whitespace = blank-at-eol, -blank-at-eof
-	pager = delta
 	compression = 0
 	packedGitLimit = 512m
 	packedGitWindowSize = 512m
@@ -39,7 +39,6 @@
 [help]
 	autocorrect = 1
 [delta]
-	navigate = true
 	side-by-side = true
 	theme = Dracula
 [include]
